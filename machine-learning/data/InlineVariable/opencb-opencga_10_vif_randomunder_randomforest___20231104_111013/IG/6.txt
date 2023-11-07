@@ -1,0 +1,20 @@
+                    index  0.010902
+                      NOM   0.00112
+                      NAs  0.000563
+                      AsD  0.001483
+     ConditionalTestLogic  0.000697
+ConstructorInitialization  0.000005
+              DefaultTest       0.0
+                EmptyTest  0.000038
+ExceptionCatchingThrowing  0.001178
+           GeneralFixture  0.000509
+             MysteryGuest  0.000332
+           PrintStatement  0.000519
+       RedundantAssertion   0.00001
+        SensitiveEquality  0.000198
+              VerboseTest       0.0
+               SleepyTest  0.000161
+          DuplicateAssert  0.000688
+              UnknownTest  0.000509
+              IgnoredTest  0.000109
+            DependentTest       0.0

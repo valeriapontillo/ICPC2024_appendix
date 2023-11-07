@@ -33,20 +33,22 @@ optimization_available = ["none", "randomsearch"]
 
 def parameters_space(model):
     if model == 'randomforest':
-        n_estimators = np.arange(100, 2000, step=100)
+        n_estimators = [10, 50, 100, 150, 200]
         max_features = ["sqrt", "log2"]
-        max_depth = list(np.arange(10, 100, step=10)) + [None]
-        min_samples_split = np.arange(2, 10, step=2)
+        #max_depth = list(np.arange(3, 6, 12, 24)) + [None]
+        min_samples_split = [2, 3,4,5,10]
         min_samples_leaf = [1, 2, 4]
         bootstrap = [True, False]
+        criterion = ["gini", "entropy"]
 
         param_space = {
             "n_estimators": n_estimators,
             "max_features": max_features,
-            "max_depth": max_depth,
+            #"max_depth": max_depth,
             "min_samples_split": min_samples_split,
             "min_samples_leaf": min_samples_leaf,
             "bootstrap": bootstrap,
+            "criterion": criterion
         }
 
     if model == 'adaboost':
@@ -203,6 +205,7 @@ def get_clf(param):
 
 
 def scorer(clf, clf_name, X, y):
+
     y_pred = clf.predict(X)
     print(y_pred)
     cm = confusion_matrix(y, y_pred)
@@ -218,8 +221,6 @@ def scorer(clf, clf_name, X, y):
         tp = 0
         pass
 
-
-
     inspection_rate = ((tp + fp) / (tp + tn + fp + fn))
     precision = (precision_score(y, y_pred))
     recall = (recall_score(y, y_pred))
@@ -228,42 +229,22 @@ def scorer(clf, clf_name, X, y):
     mcc = (matthews_corrcoef(y, y_pred))
     # calculate roc curve and auc
     if clf_name == "svm":
-        # linearsvc is the only one implementing this method 
+        # linearsvc is the only one implementing this method
         probs = clf.decision_function(X)
-        #fpr, tpr, thresholds = average_precision_score(y, probs)
-        #fpr, tpr, thresholds = precision_recall_curve(y, probs)
-        precisionNew, recallNew, thresholds = precision_recall_curve(y, probs)
-
-
-        try:
-            #auc_roc = roc_auc_score(y, probs)
-            auc_pr = auc(recallNew, precisionNew)
-        except ValueError:
-            #auc_roc = 0
-            auc_pr = 0
-            pass
+        fpr, tpr, thresholds = roc_curve(y, probs)
+        auc_roc = roc_auc_score(y, probs)
     else:
-        probs = clf.predict_proba(X)[:, 1]
-        #fpr, tpr, thresholds = roc_curve(y, probs[:, 1])
-        precisionNew, recallNew, thresholds = precision_recall_curve(y, probs)
-
-        try:
-            #auc_roc = roc_auc_score(y, probs[:, 1])
-            #auc_pr = precision_recall_curve(y, probs[:, 1])
-            auc_pr = auc(recallNew, precisionNew)
-        except ValueError:
-            #auc_roc = 0
-            auc_pr = 0
-            pass
-
+        probs = clf.predict_proba(X)
+        fpr, tpr, thresholds = roc_curve(y, probs[:, 1])
+        auc_roc = roc_auc_score(y, probs[:, 1])
 
 
     res = {"tp": [tp], "fp": [fp], "tn": [tn], "fn": [fn], "precision": [precision], "recall": [recall],
            "accuracy": [accuracy], "inspection_rate": [inspection_rate], "f1_score": [f1], "mcc": [mcc],
-           #"auc_roc":[auc_roc],
-           "auc_pr": [auc_pr]}
-    print(auc_pr)
-    return precisionNew, recallNew, pd.DataFrame(res), y_pred
+           "auc_roc": [auc_roc]
+           }
+
+    return fpr, tpr, pd.DataFrame(res), y_pred
 
 
 ''' if model == 'xgboost':

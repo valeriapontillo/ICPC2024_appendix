@@ -57,7 +57,7 @@ def id_string(params):
 
 
 def out_dir(dir_id):
-    res_dir = "../data/models_results"
+    res_dir = "../data/SplitVariable/"
     if not os.path.isdir(res_dir):
         os.makedirs(res_dir)
     res_dir = res_dir + dir_id + "/"

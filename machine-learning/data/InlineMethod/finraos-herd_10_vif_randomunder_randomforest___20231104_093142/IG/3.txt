@@ -1,0 +1,24 @@
+                    index  0.015185
+                      LOC       0.0
+                      NOM       0.0
+                      WMC       0.0
+                      RFC       0.0
+                      NAs       0.0
+                      AsD       0.0
+          NumberOfMethods  0.004359
+     ConditionalTestLogic  0.000337
+ConstructorInitialization       0.0
+              DefaultTest       0.0
+                EmptyTest       0.0
+ExceptionCatchingThrowing  0.002195
+           GeneralFixture  0.000058
+             MysteryGuest  0.000428
+           PrintStatement  0.000003
+       RedundantAssertion       0.0
+        SensitiveEquality  0.000059
+              VerboseTest       0.0
+               SleepyTest  0.000029
+          DuplicateAssert  0.000266
+              UnknownTest  0.000635
+              IgnoredTest  0.000104
+            DependentTest       0.0

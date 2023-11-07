@@ -1,0 +1,21 @@
+                    index  0.004087
+                      RFC  0.001147
+                      NAs  0.000796
+                      AsD   0.00094
+        AssertionRoulette   0.00038
+     ConditionalTestLogic  0.000197
+ConstructorInitialization  0.000053
+              DefaultTest       0.0
+                EmptyTest  0.000007
+ExceptionCatchingThrowing  0.000586
+           GeneralFixture  0.000026
+           PrintStatement  0.000006
+       RedundantAssertion  0.000003
+        SensitiveEquality  0.000613
+              VerboseTest       0.0
+               SleepyTest  0.000004
+          DuplicateAssert  0.000209
+              UnknownTest  0.000081
+              IgnoredTest  0.000022
+         ResourceOptimism  0.000191
+            DependentTest       0.0

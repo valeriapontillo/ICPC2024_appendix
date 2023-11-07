@@ -1,0 +1,22 @@
+                    index  0.009106
+                      WMC  0.000949
+                      NAs  0.001127
+                      AsD  0.000944
+     ConditionalTestLogic  0.000056
+ConstructorInitialization  0.000002
+              DefaultTest       0.0
+                EmptyTest       0.0
+ExceptionCatchingThrowing  0.000124
+           GeneralFixture  0.000033
+             MysteryGuest  0.000139
+           PrintStatement  0.000002
+       RedundantAssertion  0.000001
+        SensitiveEquality  0.000029
+              VerboseTest       0.0
+               SleepyTest  0.000006
+          DuplicateAssert  0.000272
+              UnknownTest  0.000041
+              IgnoredTest   0.00054
+         ResourceOptimism  0.000035
+          MagicNumberTest  0.000635
+            DependentTest       0.0

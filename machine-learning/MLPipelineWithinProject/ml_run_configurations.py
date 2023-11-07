@@ -2,19 +2,17 @@ import subprocess
 import gc
 from ml_utils import collect_available_choices
 
+
 def get_configurations():
     to_run = []
     choices = collect_available_choices()
-    #these are your single projects
-    choices["data"] = ["achilles","activiti", "cukes", "db-scheduler", "dnsjava", "dropwizard", "elastic-job-lite",
-                       "esper", "fastjson", "hadoop", "hbase", "hutool", "java-websocket", "jfreechart", "jhipster-registry",
-                       "junit-quickcheck", "noxy", "oci-java-sdk", "orbit", "otto", "retrofit", "riptide", "rxjava2-extras",
-                       "sawmill", "search-highlighter", "spring-boot", "spring-cloud-zuul-ratelimit", "spring-ws",
-                       "timely", "undertow", "unix4j", "vertexium", "wildfly","admiral","aismessages","alien4cloud","c2mon",
-                       "carbon-apimgt","fluent-logger-java","hsac-fitnesse-fixtures","http-request","incubator-dubbo",
-                       "jimfs","joda-time","luwak","marine-api","oryx","querydsl","tyrus","vertx-completable-future","webcollector",
-                       "yawp","aletheia","helios","nexus-repository-helm","openpojo","pippo","struts","wikidata-toolkit","wro4j"]
-
+    # these are your single projects
+    choices["data"] = ["graphhopper-graphhopper","itext-itext7","fabric8io-kubernetes-client","apache-iotdb",
+                       "nationalsecurityagency-emissary","apache-pulsar","wojciechzankowski-iextrading4j",
+                       "seleniumhq-htmlunit-driver","cmu-phil-tetrad","questdb-questdb","logic-ng-logicng",
+                       "opencb-opencga","geonetwork-core-geonetwork","zanata-zanata-platform",
+                       "googleapis-google-http-java-client","finraos-herd","microsoft-azure-maven-plugins",
+                       "instancio-instancio","arangodb-arangodb-java-driver","codestory-fluent-http"]
 
     with open('configuration.txt', 'r') as f:
         for line in f.readlines():
@@ -24,7 +22,7 @@ def get_configurations():
             for key in choices.keys():
                 params[key] = "none"
             params["k"] = 10
-            params["feature_sel"] = "none"
+            params["feature_sel"] = "vif"
 
             for c in conf:
                 for key in choices.keys():
@@ -32,11 +30,12 @@ def get_configurations():
                         params[key] = c
             to_run.append(params)
     return to_run
-    
-    
+
+
 # run
 for conf in get_configurations():
-    subprocess.run(["python", "./ml_main.py", "-i", conf["data"], "-k", str(conf["k"]), "-p", conf["feature_sel"], conf["balancing"], conf["optimization"], conf["classifier"]])
+    subprocess.run(["python", "./ml_main.py", "-i", conf["data"], "-k", str(conf["k"]), "-p", conf["feature_sel"],
+                    conf["balancing"], conf["optimization"], conf["classifier"]])
     gc.collect()
-                    
+
 

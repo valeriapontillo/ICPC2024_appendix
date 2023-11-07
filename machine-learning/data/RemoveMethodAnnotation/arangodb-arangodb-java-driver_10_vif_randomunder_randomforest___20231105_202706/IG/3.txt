@@ -1,0 +1,20 @@
+                    index   0.03499
+                      NAs  0.007206
+                      AsD  0.007684
+          NumberOfMethods  0.010348
+ConstructorInitialization  0.000363
+              DefaultTest       0.0
+                EmptyTest  0.000021
+ExceptionCatchingThrowing   0.00212
+           GeneralFixture   0.00011
+             MysteryGuest       0.0
+           PrintStatement  0.000094
+       RedundantAssertion  0.000006
+        SensitiveEquality  0.000275
+              VerboseTest       0.0
+               SleepyTest  0.000424
+          DuplicateAssert  0.000946
+              UnknownTest  0.000311
+              IgnoredTest  0.001342
+         ResourceOptimism  0.000009
+            DependentTest       0.0

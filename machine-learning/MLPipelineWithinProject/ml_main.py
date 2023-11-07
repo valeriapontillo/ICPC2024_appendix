@@ -1,5 +1,5 @@
 from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import LabelEncoder, MinMaxScaler
 
 from ml_utils import get_params, id_string, out_dir
 from ml_preparation import feature_selection, data_balancing
@@ -29,13 +29,13 @@ out_dir = out_dir(job_id + "__" + time_str)
 perf_df = pd.DataFrame([])
 precision_list = []
 recall_list = []
-#fpr_list = []
-#tpr_list = []
+fpr_list = []
+tpr_list = []
 
 print("Started: " + start_time.strftime("%d %m %Y H%H:%M:%S"))
 print("Results will be saved to dir: " + out_dir)
 # get dataset
-dataset_dir = "/yourPath/ML-Test-Smell-Detection-Online-Appendix/dataset/eagerTest/" + params[
+dataset_dir = "/Users/valeriapontillo/Desktop/ICPC2024_appendix/sample_refactoring/SplitVariable/" + params[
     "data"] + ".csv"  # Insert here your path
 
 #this line is for RQ3    
@@ -48,12 +48,15 @@ print("Splitting dataset...")
 # split dataset in k folds
 kfold = StratifiedKFold(n_splits=k, shuffle=True, random_state=42)
 
-X = df.iloc[: , [0,1,2,3,4,5,6,7]].copy() #this line is for EagerTestPrediction
+#X = df.iloc[: , [1,2,3,30,31]].copy() #this line is for EagerTestPrediction
 #X = df.iloc[: , [0,1,2,3,4,5,6]].copy() #this line is for MysteryGuestPrediction
 
-X = df.iloc[:, df.columns != 'isEagerTestManual'].copy()
+columns_to_exclude = ['App','SHA','TestFilePath','SplitVariable','isSplitVariable']
+
+X = df.loc[:, ~df.columns.isin(columns_to_exclude)].copy()
+
 # y = df.iloc[: , [29]].copy()
-y = df["isEagerTestManual"]
+y = df["isSplitVariable"]
 folds = kfold.split(X, y)
 
 # del df
@@ -72,20 +75,20 @@ for fold in folds:
     train = df.iloc[fold[0]]
     test = df.iloc[fold[1]]
 
-    y_train = train["isEagerTestManual"]
+    y_train = train["isSplitVariable"]
     y_train = y_train.astype(int)
     # this line is for RQ3
     X_train = train.drop(
-        columns=["idProject", "nameProject", "productionClass", "testCase", "SimilaritiesCoefficient","probabilityEagerTest","isEagerTest", "isEagerTestManual"])
-    #NMC,SimilaritiesCoefficient,probabilityEagerTest,
-    testset_sample = test[
-        ["idProject", "nameProject", "productionClass", "testCase", "SimilaritiesCoefficient","probabilityEagerTest","isEagerTest","isEagerTestManual"]]
+        columns=["App","SHA","TestFilePath","SplitVariable","isSplitVariable"])
 
-    y_test = test["isEagerTestManual"]
+    testset_sample = test[
+        ["App","SHA","TestFilePath","SplitVariable","isSplitVariable"]]
+
+    y_test = test["isSplitVariable"]
     y_test = y_test.astype(int)
 
     X_test = test.drop(
-        columns=["idProject", "nameProject", "productionClass", "testCase", "SimilaritiesCoefficient","probabilityEagerTest","isEagerTest", "isEagerTestManual"])
+        columns=["App","SHA","TestFilePath","SplitVariable","isSplitVariable"])
     
     print("Round " + str(i + 1) + " of " + str(k) + ": " + "Data cleaning")
   
@@ -94,7 +97,20 @@ for fold in folds:
     X_test = X_test[columns_to_retain]
     if not params["feature_sel"] == "none":
         print("Round " + str(i + 1) + " of " + str(k) + ": " + "Feature selection")
+
+
+        # Supponendo X_train sia un DataFrame di pandas
+        scaler = MinMaxScaler()
+        scaled_values = scaler.fit_transform(X_train)
+
+        # Creazione di un nuovo DataFrame con i valori scalati
+        X_train_scaled = pd.DataFrame(scaled_values, columns=X_train.columns)
+        X_train = X_train_scaled
+
         columns_to_retain = feature_selection(params["feature_sel"], X_train)
+
+        #scaler = MinMaxScaler()
+        #X_train = scaler.fit_transform(X_train)
         X_train = X_train[columns_to_retain]
         X_test = X_test[columns_to_retain]
 
@@ -137,6 +153,8 @@ for fold in folds:
         clf_name = "dummy_random"
     clf = get_clf(clf_name)
 
+    print(clf)
+
     # hyperparameter opt
 
     if not params["optimization"] == "none" and not clf_name.startswith("dummy"):
@@ -147,6 +165,8 @@ for fold in folds:
 
     # validation 
     print("Round " + str(i + 1) + " of " + str(k) + ": " + "Training")
+    print(X_train)
+    print(y_train)
     clf.fit(X_train, y_train)
 
 
@@ -155,8 +175,8 @@ for fold in folds:
     gc.collect()
 
     print("Round " + str(i + 1) + " of " + str(k) + ": " + "Testing")
-    #fpr, tpr, res, y_pred = scorer(clf, clf_name, X_test, y_test)
-    precisionNew, recallNew, res, y_pred = scorer(clf, clf_name, X_test, y_test)
+    fpr, tpr, res, y_pred = scorer(clf, clf_name, X_test, y_test)
+    #precisionNew, recallNew, res, y_pred = scorer(clf, clf_name, X_test, y_test)
     y_pred = pd.DataFrame(y_pred, columns =["prediction"], index=testset_sample.index)
     y_pred.replace({0.0:False,1.0:True}, inplace=True)
 
@@ -164,13 +184,12 @@ for fold in folds:
     mode = 'w' if print_header else 'a'
     agreement.to_csv(out_dir+"resultForTestCase.csv", mode=mode, header=print_header)
     print_header =False
-    pyplot.figure()
+    '''pyplot.figure()
     pyplot.plot(recallNew, precisionNew)
-    pyplot.savefig(out_dir + "roc_curves/" + str(i) + ".png")
-    precision_list.append(precisionNew)
-    recall_list.append(recallNew)
-    #fpr_list.append(fpr)
-    #tpr_list.append(tpr)
+    pyplot.savefig(out_dir + "roc_curves/" + str(i) + ".png")'''
+    fpr_list.append(fpr)
+    tpr_list.append(tpr)
+
     perf_df = pd.concat([perf_df, res], ignore_index=True)
 
     del X_test
@@ -182,20 +201,21 @@ for fold in folds:
 
 print("Saving performance")
 
-sumTN = perf_df['tn'].sum()
-sumFP = perf_df['fp'].sum()
-sumFN = perf_df['fn'].sum()
 sumTP = perf_df['tp'].sum()
+print(sumTP)
+sumFP = perf_df['fp'].sum()
+sumTN = perf_df['tn'].sum()
+sumFN = perf_df['fn'].sum()
 meanPR = perf_df['precision'].mean()
 meanRC = perf_df['recall'].mean()
 meanACC = perf_df['accuracy'].mean()
 meanIR = perf_df['inspection_rate'].mean()
 meanF1 = perf_df['f1_score'].mean()
 meanMCC = perf_df['mcc'].mean()
-meanAUC_PR = perf_df['auc_pr'].mean()
-#meanAUC = perf_df['auc_roc'].mean()
+meanAUC = perf_df['auc_roc'].mean()
+print(meanAUC)
 
-list = [sumTP, sumFP, sumTN, sumFN, meanPR, meanRC, meanACC, meanIR, meanF1, meanMCC, meanAUC_PR]#, meanAUC]
+list = [sumTP, sumFP, sumTN, sumFN, meanPR, meanRC, meanACC, meanIR, meanF1, meanMCC, meanAUC]
 #perf_df  = pd.read_csv('performance.csv')
 perf_df = perf_df.append(pd.Series(list, index=perf_df.columns[:len(list)]), ignore_index=True)
 perf_df.to_csv(out_dir + "performance.csv")

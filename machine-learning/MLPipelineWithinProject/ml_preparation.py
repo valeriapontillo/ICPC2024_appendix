@@ -1,15 +1,12 @@
 import pandas as pd
+from imblearn.over_sampling import RandomOverSampler, BorderlineSMOTE, ADASYN, SMOTE
 from sklearn.datasets import make_classification
 from sklearn.preprocessing import MinMaxScaler
-from statsmodels.stats.outliers_influence import variance_inflation_factor
 import numpy as np
-from imblearn.over_sampling import SMOTE, RandomOverSampler, ADASYN, BorderlineSMOTE
 from imblearn.under_sampling import NearMiss, RandomUnderSampler
 from sklearn.feature_selection import mutual_info_classif
 from sklearn.feature_extraction.text import CountVectorizer
-
-
-
+from statsmodels.stats.outliers_influence import variance_inflation_factor
 
 ################################################################
 #

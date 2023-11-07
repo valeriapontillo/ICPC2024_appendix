@@ -1,0 +1,21 @@
+                    index  0.0
+                      WMC  0.0
+                      NAs  0.0
+        AssertionRoulette  0.0
+     ConditionalTestLogic  0.0
+ConstructorInitialization  0.0
+              DefaultTest  0.0
+                EmptyTest  0.0
+ExceptionCatchingThrowing  0.0
+           GeneralFixture  0.0
+             MysteryGuest  0.0
+           PrintStatement  0.0
+       RedundantAssertion  0.0
+        SensitiveEquality  0.0
+              VerboseTest  0.0
+               SleepyTest  0.0
+          DuplicateAssert  0.0
+              UnknownTest  0.0
+              IgnoredTest  0.0
+         ResourceOptimism  0.0
+            DependentTest  0.0

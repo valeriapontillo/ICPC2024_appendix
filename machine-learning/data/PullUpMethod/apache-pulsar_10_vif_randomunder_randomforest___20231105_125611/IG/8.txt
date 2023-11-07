@@ -1,0 +1,19 @@
+                    index  0.002172
+                      NOM  0.000198
+                      NAs  0.000116
+     ConditionalTestLogic  0.000139
+ConstructorInitialization       0.0
+              DefaultTest       0.0
+                EmptyTest       0.0
+           GeneralFixture  0.000004
+           PrintStatement  0.000004
+       RedundantAssertion  0.000002
+        SensitiveEquality  0.000012
+              VerboseTest       0.0
+               SleepyTest  0.000028
+          DuplicateAssert  0.000073
+              UnknownTest   0.00003
+              IgnoredTest  0.000007
+         ResourceOptimism  0.000007
+          MagicNumberTest  0.000159
+            DependentTest       0.0
