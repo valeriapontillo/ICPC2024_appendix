@@ -1,15 +1,15 @@
 import os
 
 # Specifica la directory
-directory = "/Users/valeriapontillo/Downloads/new_data_IST/per_refactoring"
+directory = "/Users/valeriapontillo/Downloads/new_data_IST/per_project"
 
-output_file = "allConfigurations_perrefactoring"
+output_file = "allConfigurations_perproject.txt"
 
 # Modelli di classificazione
 classifiers = ["svm", "randomforest", "naivebayes", "decisiontree", "logisticregression", "extratree"]
 
 # Tecniche di bilanciamento
-balancing_methods = ["randomunder", "nearmissunder1", "nearmissunder2", "nearmissunder3", "randomover", "smoteover", "adasyin"]
+balancing_methods = ["randomunder", "nearmissunder1", "nearmissunder2", "nearmissunder3", "randomover", "smoteover", "adasyin", "borderlinesmote"]
 
 # Ottieni tutti i file .csv e rimuovi l'estensione
 csv_files = [f[:-4] for f in os.listdir(directory) if f.endswith(".csv")]
