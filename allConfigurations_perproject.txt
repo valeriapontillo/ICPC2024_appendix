@@ -1,3 +1,99 @@
+svm admiral
+randomforest admiral
+naivebayes admiral
+decisiontree admiral
+logisticregression admiral
+extratree admiral
+svm admiral randomunder
+svm admiral nearmissunder1
+svm admiral nearmissunder2
+svm admiral nearmissunder3
+svm admiral randomover
+svm admiral smoteover
+svm admiral adasyin
+randomforest admiral randomunder
+randomforest admiral nearmissunder1
+randomforest admiral nearmissunder2
+randomforest admiral nearmissunder3
+randomforest admiral randomover
+randomforest admiral smoteover
+randomforest admiral adasyin
+naivebayes admiral randomunder
+naivebayes admiral nearmissunder1
+naivebayes admiral nearmissunder2
+naivebayes admiral nearmissunder3
+naivebayes admiral randomover
+naivebayes admiral smoteover
+naivebayes admiral adasyin
+decisiontree admiral randomunder
+decisiontree admiral nearmissunder1
+decisiontree admiral nearmissunder2
+decisiontree admiral nearmissunder3
+decisiontree admiral randomover
+decisiontree admiral smoteover
+decisiontree admiral adasyin
+logisticregression admiral randomunder
+logisticregression admiral nearmissunder1
+logisticregression admiral nearmissunder2
+logisticregression admiral nearmissunder3
+logisticregression admiral randomover
+logisticregression admiral smoteover
+logisticregression admiral adasyin
+extratree admiral randomunder
+extratree admiral nearmissunder1
+extratree admiral nearmissunder2
+extratree admiral nearmissunder3
+extratree admiral randomover
+extratree admiral smoteover
+extratree admiral adasyin
+svm zanata-platform
+randomforest zanata-platform
+naivebayes zanata-platform
+decisiontree zanata-platform
+logisticregression zanata-platform
+extratree zanata-platform
+svm zanata-platform randomunder
+svm zanata-platform nearmissunder1
+svm zanata-platform nearmissunder2
+svm zanata-platform nearmissunder3
+svm zanata-platform randomover
+svm zanata-platform smoteover
+svm zanata-platform adasyin
+randomforest zanata-platform randomunder
+randomforest zanata-platform nearmissunder1
+randomforest zanata-platform nearmissunder2
+randomforest zanata-platform nearmissunder3
+randomforest zanata-platform randomover
+randomforest zanata-platform smoteover
+randomforest zanata-platform adasyin
+naivebayes zanata-platform randomunder
+naivebayes zanata-platform nearmissunder1
+naivebayes zanata-platform nearmissunder2
+naivebayes zanata-platform nearmissunder3
+naivebayes zanata-platform randomover
+naivebayes zanata-platform smoteover
+naivebayes zanata-platform adasyin
+decisiontree zanata-platform randomunder
+decisiontree zanata-platform nearmissunder1
+decisiontree zanata-platform nearmissunder2
+decisiontree zanata-platform nearmissunder3
+decisiontree zanata-platform randomover
+decisiontree zanata-platform smoteover
+decisiontree zanata-platform adasyin
+logisticregression zanata-platform randomunder
+logisticregression zanata-platform nearmissunder1
+logisticregression zanata-platform nearmissunder2
+logisticregression zanata-platform nearmissunder3
+logisticregression zanata-platform randomover
+logisticregression zanata-platform smoteover
+logisticregression zanata-platform adasyin
+extratree zanata-platform randomunder
+extratree zanata-platform nearmissunder1
+extratree zanata-platform nearmissunder2
+extratree zanata-platform nearmissunder3
+extratree zanata-platform randomover
+extratree zanata-platform smoteover
+extratree zanata-platform adasyin
 svm kubernetes-client
 randomforest kubernetes-client
 naivebayes kubernetes-client
@@ -1870,54 +1966,6 @@ extratree cola nearmissunder3
 extratree cola randomover
 extratree cola smoteover
 extratree cola adasyin
-svm admiral
-randomforest admiral
-naivebayes admiral
-decisiontree admiral
-logisticregression admiral
-extratree admiral
-svm admiral randomunder
-svm admiral nearmissunder1
-svm admiral nearmissunder2
-svm admiral nearmissunder3
-svm admiral randomover
-svm admiral smoteover
-svm admiral adasyin
-randomforest admiral randomunder
-randomforest admiral nearmissunder1
-randomforest admiral nearmissunder2
-randomforest admiral nearmissunder3
-randomforest admiral randomover
-randomforest admiral smoteover
-randomforest admiral adasyin
-naivebayes admiral randomunder
-naivebayes admiral nearmissunder1
-naivebayes admiral nearmissunder2
-naivebayes admiral nearmissunder3
-naivebayes admiral randomover
-naivebayes admiral smoteover
-naivebayes admiral adasyin
-decisiontree admiral randomunder
-decisiontree admiral nearmissunder1
-decisiontree admiral nearmissunder2
-decisiontree admiral nearmissunder3
-decisiontree admiral randomover
-decisiontree admiral smoteover
-decisiontree admiral adasyin
-logisticregression admiral randomunder
-logisticregression admiral nearmissunder1
-logisticregression admiral nearmissunder2
-logisticregression admiral nearmissunder3
-logisticregression admiral randomover
-logisticregression admiral smoteover
-logisticregression admiral adasyin
-extratree admiral randomunder
-extratree admiral nearmissunder1
-extratree admiral nearmissunder2
-extratree admiral nearmissunder3
-extratree admiral randomover
-extratree admiral smoteover
-extratree admiral adasyin
 svm iota-java
 randomforest iota-java
 naivebayes iota-java
@@ -2014,54 +2062,6 @@ extratree arangodb-java-driver nearmissunder3
 extratree arangodb-java-driver randomover
 extratree arangodb-java-driver smoteover
 extratree arangodb-java-driver adasyin
-svm zanata-platform
-randomforest zanata-platform
-naivebayes zanata-platform
-decisiontree zanata-platform
-logisticregression zanata-platform
-extratree zanata-platform
-svm zanata-platform randomunder
-svm zanata-platform nearmissunder1
-svm zanata-platform nearmissunder2
-svm zanata-platform nearmissunder3
-svm zanata-platform randomover
-svm zanata-platform smoteover
-svm zanata-platform adasyin
-randomforest zanata-platform randomunder
-randomforest zanata-platform nearmissunder1
-randomforest zanata-platform nearmissunder2
-randomforest zanata-platform nearmissunder3
-randomforest zanata-platform randomover
-randomforest zanata-platform smoteover
-randomforest zanata-platform adasyin
-naivebayes zanata-platform randomunder
-naivebayes zanata-platform nearmissunder1
-naivebayes zanata-platform nearmissunder2
-naivebayes zanata-platform nearmissunder3
-naivebayes zanata-platform randomover
-naivebayes zanata-platform smoteover
-naivebayes zanata-platform adasyin
-decisiontree zanata-platform randomunder
-decisiontree zanata-platform nearmissunder1
-decisiontree zanata-platform nearmissunder2
-decisiontree zanata-platform nearmissunder3
-decisiontree zanata-platform randomover
-decisiontree zanata-platform smoteover
-decisiontree zanata-platform adasyin
-logisticregression zanata-platform randomunder
-logisticregression zanata-platform nearmissunder1
-logisticregression zanata-platform nearmissunder2
-logisticregression zanata-platform nearmissunder3
-logisticregression zanata-platform randomover
-logisticregression zanata-platform smoteover
-logisticregression zanata-platform adasyin
-extratree zanata-platform randomunder
-extratree zanata-platform nearmissunder1
-extratree zanata-platform nearmissunder2
-extratree zanata-platform nearmissunder3
-extratree zanata-platform randomover
-extratree zanata-platform smoteover
-extratree zanata-platform adasyin
 svm argus
 randomforest argus
 naivebayes argus

@@ -88,6 +88,7 @@ for train_index, test_index in folds:
     test = df.iloc[test_index]
 
     y_train = train.iloc[:, 45].astype(int)
+    print(y_train)
     # this line is for RQ3
     X_train = train.drop(
         columns=['App',  'SHA', 'Tag', 'TestFilePath', df.columns[45], 'group'])
@@ -174,6 +175,7 @@ for train_index, test_index in folds:
     # precisionNew, recallNew, res, y_pred = scorer(clf, clf_name, X_test, y_test)
     y_pred = pd.DataFrame(y_pred, columns=["prediction"], index=testset_sample.index)
     y_pred.replace({0.0: False, 1.0: True}, inplace=True)
+    y_pred = y_pred.astype(bool)
 
     agreement = testset_sample.join(y_pred)
     all_agreements.append(agreement)
@@ -219,7 +221,7 @@ meanAUC = perf_df['auc_roc'].mean()
 
 list = [sumTP, sumFP, sumTN, sumFN, meanPR, meanRC, meanACC, meanIR, meanF1, meanMCC, meanAUC]
 # perf_df  = pd.read_csv('performance.csv')
-perf_df = perf_df.append(pd.Series(list, index=perf_df.columns[:len(list)]), ignore_index=True)
+perf_df = pd.concat([perf_df, pd.DataFrame([list], columns=perf_df.columns[:len(list)])], ignore_index=True)
 perf_df.to_csv(out_dir + "performance.csv")
 
 end_time = datetime.now()
