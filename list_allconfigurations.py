@@ -3,14 +3,14 @@ import os
 # Specifica la directory
 directory = "/Users/valeriapontillo/Downloads/new_data_IST/per_project"
 
-output_file = "allConfigurations_perproject.txt"
+output_file = "allConfigurations.txt"
 
 # Modelli di classificazione
 classifiers = ["svm", "randomforest", "naivebayes", "decisiontree", "logisticregression", "extratree"]
 
 # Tecniche di bilanciamento
-balancing_methods = ["randomunder", "nearmissunder1", "nearmissunder2", "nearmissunder3", "randomover", "smoteover", "adasyin", "borderlinesmote"]
-
+#balancing_methods = ["randomunder", "nearmissunder1", "nearmissunder2", "nearmissunder3", "randomover", "smoteover", "adasyn", "borderlinesmote"]
+balancing_methods = ["adasyn"]
 # Ottieni tutti i file .csv e rimuovi l'estensione
 csv_files = [f[:-4] for f in os.listdir(directory) if f.endswith(".csv")]
 
@@ -19,8 +19,8 @@ configurations = []
 
 for file_name in csv_files:
     # Prima configurazione: modello + nome file
-    for classifier in classifiers:
-        configurations.append(f"{classifier} {file_name}")
+    #for classifier in classifiers:
+     #   configurations.append(f"{classifier} {file_name}")
 
     # Seconda configurazione: modello + nome file + tecnica di bilanciamento
     for classifier in classifiers:
