@@ -1486,7 +1486,7 @@ def get_configurations():
                        "googleads-java-lib_isReplaceTryCatchWithRule", "pulsar_isReplaceVariableWithAttribute",
                        "poli_isInlineVariable"]
 
-    with open('allConfigurations.txt', 'r') as f:
+    with open('allConfigurations_perrefactoring.txt', 'r') as f:
         for line in f.readlines():
             params = {}
             conf = line.strip().split(" ")
