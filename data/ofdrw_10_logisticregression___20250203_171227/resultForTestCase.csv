@@ -1,0 +1,14 @@
+App,SHA,Tag,TestFilePath,isRefactored,prediction
+ofdrw/ofdrw,dd8457f35ca2740e2b79047216e450a3a7fc1ae7,"1.4.0, 1.5.0",ofdrw-layout.src.test.java.org.ofdrw.layout.OFDDocTest.java,True,True
+ofdrw/ofdrw,3b00f448002aacbd46925b71b61f42d487e1bc3e,"1.6.3, 1.6.5",ofdrw-sign.src.test.java.org.ofdrw.sign.OFDSignerTest.java,False,True
+ofdrw/ofdrw,b80aec46f8d2b1ded1c7c8c8236a09d2122d80e2,"1.13.3, 1.13.4",ofdrw-core.src.test.java.org.ofdrw.core.graph.pathObj.AbbreviatedDataTest.java,False,True
+ofdrw/ofdrw,b80aec46f8d2b1ded1c7c8c8236a09d2122d80e2,"1.13.3, 1.13.4",ofdrw-crypto.src.test.java.org.ofdrw.crypto.OFDEncryptorTest.java,False,True
+ofdrw/ofdrw,ac0356443488a1a4abd99c929bfb2aff8488ebf0,"1.13.5, 1.14.0",ofdrw-crypto.src.test.java.org.ofdrw.crypto.OFDEncryptorTest.java,False,True
+ofdrw/ofdrw,319c5c3b49dcdd4661930bffa5bc72fb73a0f96c,"1.14.0, 1.15.0",ofdrw-crypto.src.test.java.org.ofdrw.crypto.integrity.OFDIntegrityVerifierTest.java,False,False
+ofdrw/ofdrw,319c5c3b49dcdd4661930bffa5bc72fb73a0f96c,"1.14.0, 1.15.0",ofdrw-sign.src.test.java.org.ofdrw.sign.signContainer.GBT35275DSContainerTest.java,False,True
+ofdrw/ofdrw,c037a43d0173d9abffe4349230b6866f3fafd1e2,"1.16.0, 1.17.0",ofdrw-tool.src.test.java.org.ofdrw.tool.merge.OFDMergerTest.java,False,False
+ofdrw/ofdrw,07bbd0d39da470a57270290fd8c1c01f8d8be21b,"1.20.0, 1.20.1",ofdrw-layout.src.test.java.org.ofdrw.layout.OFDDocTest.java,False,False
+ofdrw/ofdrw,e0cfc952dc7facdd9e7c9703073144cc17879d9a,"1.20.2, 2.0.0",ofdrw-converter.src.test.java.org.ofdrw.converter.export.SVGExporterTest.java,False,False
+ofdrw/ofdrw,e0cfc952dc7facdd9e7c9703073144cc17879d9a,"1.20.2, 2.0.0",ofdrw-converter.src.test.java.org.ofdrw.converter.export.ImageExporterTest.java,False,True
+ofdrw/ofdrw,e0cfc952dc7facdd9e7c9703073144cc17879d9a,"1.20.2, 2.0.0",ofdrw-converter.src.test.java.org.ofdrw.converter.export.HTMLExporterTest.java,False,False
+ofdrw/ofdrw,b200a1c2bfa5c107a91a1ee17a55334b2d170399,"2.0.0, 2.0.1",ofdrw-core.src.test.java.org.ofdrw.core.basicType.STBaseTest.java,False,False

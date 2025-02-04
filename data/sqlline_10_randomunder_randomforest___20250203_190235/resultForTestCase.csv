@@ -1,0 +1,5 @@
+App,SHA,Tag,TestFilePath,isRefactored,prediction
+julianhyde/sqlline,2752f8197759a349d5a747bbe48e889b878228d3,"sqlline-1.6.0, sqlline-1.7.0",src.test.java.sqlline.SqlLineTest.java,True,False
+julianhyde/sqlline,2752f8197759a349d5a747bbe48e889b878228d3,"sqlline-1.6.0, sqlline-1.7.0",src.test.java.sqlline.SqlLineHighlighterTest.java,True,True
+julianhyde/sqlline,2752f8197759a349d5a747bbe48e889b878228d3,"sqlline-1.6.0, sqlline-1.7.0",src.test.java.sqlline.DatabaseMetaDataWrapperTest.java,True,True
+julianhyde/sqlline,ac1f18537a2649dacf599c83b5c7f03341ba4221,"sqlline-1.7.0, sqlline-1.8.0",src.test.java.sqlline.SqlLineHighlighterTest.java,False,False
