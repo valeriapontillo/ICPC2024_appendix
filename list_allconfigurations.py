@@ -12,7 +12,11 @@ classifiers = ["svm", "randomforest", "naivebayes", "decisiontree", "logisticreg
 balancing_methods = ["randomunder", "nearmissunder1", "nearmissunder2", "nearmissunder3", "randomover", "smoteover", "adasyn", "borderlinesmote"]
 
 # Parole chiave da escludere
-exclude_keywords = ["cola", "herd", "idworker", "maven-mvnd", "state-machine", "zendesk-java-client"]
+exclude_keywords = ["cola", "herd", "idworker", "maven-mvnd", "state-machine", "zendesk-java-client",
+                    "isPushDownAttribute", "isMergeMethod", "isConvertAnonymousClasstoType", "isIntroducePolymorphism",
+                    "isMovePackage", "isSplitParameter", "isModifyVariableAnnotation", "isSplitPackage", "isMergePackage",
+                    "isCollapseHierarchy", "isInvertCondition"]
+
 
 # Ottieni tutti i file .csv, rimuovi l'estensione ed escludi quelli che contengono le parole chiave
 csv_files = [f[:-4] for f in os.listdir(directory) if f.endswith(".csv") and not any(keyword in f for keyword in exclude_keywords)]

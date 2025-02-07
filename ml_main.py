@@ -82,10 +82,13 @@ print_header = True
 
 for train_index, test_index in folds:
     print("Round " + str(i + 1) + " of " + str(unique_values_count) + ": " + "Get data fold")
-
-    # get train and test features and labels
     train = df.iloc[train_index]
     test = df.iloc[test_index]
+
+    if len(train) < 5:  # Arbitrary threshold for sufficient training data
+        print(f"Skipping commit {i + 1} due to insufficient training data.")
+        continue
+
 
     y_train = train.iloc[:, 45].astype(int)
     print(y_train)
