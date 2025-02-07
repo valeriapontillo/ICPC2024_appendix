@@ -1,0 +1,27 @@
+App,SHA,Tag,TestFilePath,isRefactored,prediction
+slackapi/java-slack-sdk,8a05fe335eec3917e52516f456d3b2098dd910b6,"jslack-3.1.5, jslack-3.2.0",jslack-api-model.src.test.java.test_locally.api.model.event.MessageEventTest.java,False,False
+slackapi/java-slack-sdk,2ae83b42eb76145009cd0a346b3b3902c9359ba4,"jslack-3.3.0, v0.99.0",slack-app-backend.src.test.java.test_locally.app_backend.oauth.payload.VerificationCodePayloadTest.java,False,False
+slackapi/java-slack-sdk,2ae83b42eb76145009cd0a346b3b3902c9359ba4,"jslack-3.3.0, v0.99.0",slack-app-backend.src.test.java.test_locally.app_backend.interactive_messages.payload.PayloadTypeDetectorTest.java,False,False
+slackapi/java-slack-sdk,a882e4170f324d3bfb9b303271d142c3118a3250,"v0.99.2, v0.99.3",bolt.src.test.java.test_locally.AppTest.java,True,False
+slackapi/java-slack-sdk,fd8650c1400ad5c0b802142cd68fa51021614fb7,"v0.99.3, v0.99.4",slack-app-backend.src.test.java.test_locally.app_backend.vendor.aws.lambda.response.ApiGatewayResponseTest.java,False,False
+slackapi/java-slack-sdk,fd8650c1400ad5c0b802142cd68fa51021614fb7,"v0.99.3, v0.99.4",slack-app-backend.src.test.java.test_locally.app_backend.util.JsonPayloadExtractorTest.java,False,True
+slackapi/java-slack-sdk,fd8650c1400ad5c0b802142cd68fa51021614fb7,"v0.99.3, v0.99.4",bolt.src.test.java.test_locally.middleware.MultiTeamsAuthorizationTest.java,True,False
+slackapi/java-slack-sdk,9a4a24a74c0bfe808ea0bc2e15689f791503e204,"v0.99.4, v0.99.5",bolt.src.test.java.test_locally.service.FileInstallationServiceTest.java,True,True
+slackapi/java-slack-sdk,9a4a24a74c0bfe808ea0bc2e15689f791503e204,"v0.99.4, v0.99.5",bolt.src.test.java.test_locally.middleware.IgnoringSelfEventsTest.java,False,False
+slackapi/java-slack-sdk,9a4a24a74c0bfe808ea0bc2e15689f791503e204,"v0.99.4, v0.99.5",bolt-aws-lambda.src.test.java.test_locally.SlackApiLambdaHandlerTest.java,False,False
+slackapi/java-slack-sdk,990daebac37bd12318f37d02def4926601822cc8,"v1.0.0-RC3, v1.0.0-RC4",bolt.src.test.java.test_locally.util.SlackRequestParserTest.java,False,False
+slackapi/java-slack-sdk,990daebac37bd12318f37d02def4926601822cc8,"v1.0.0-RC3, v1.0.0-RC4",bolt.src.test.java.test_locally.app.MiddlewareTest.java,False,True
+slackapi/java-slack-sdk,9efe217ca23133998af715e3c4ba8565c7a0347c,"v1.0.7, v1.0.8",slack-api-client.src.test.java.test_locally.api.MethodsTest.java,True,False
+slackapi/java-slack-sdk,cccdaa6042d446b53f6f613781ba82f26ea766a8,"v1.0.8, v1.0.9",slack-api-client.src.test.java.test_locally.api.rtm.RTMEventsDispatcherImplTest.java,True,False
+slackapi/java-slack-sdk,f5f09fb5907ee3e32d8e77d28be0fafc67075166,"v1.1.1, v1.1.2",slack-api-client.src.test.java.test_locally.api.MethodsTest.java,False,False
+slackapi/java-slack-sdk,55c363a10e6f50aed2790bf73bc5042238deead7,"v1.1.3, v1.1.4",slack-app-backend.src.test.java.test_locally.app_backend.slash_commands.SlashCommandPayloadTest.java,False,False
+slackapi/java-slack-sdk,654fc61ca32c2ae20b662871903f588be0a37087,"v1.3.0-RC3, v1.3.0",bolt-http4k.src.test.java.test_locally.Http4kSlackAppTest.java,False,False
+slackapi/java-slack-sdk,c89656614b1360db2f69e22852376b250fe049e9,"v1.4.0, v1.4.1",slack-api-client.src.test.java.test_locally.api.methods.metrics.RedisMetricsDatastoreTest.java,True,False
+slackapi/java-slack-sdk,e60d84d38ad6c92090dbbb762124dca8112f65cf,"v1.4.2, v1.5.0-M2",bolt-socket-mode.src.test.java.test_locally.SocketModeAppTest.java,False,False
+slackapi/java-slack-sdk,275c0675ad646d2f6e3f662b2a443bf95e889fa5,"v1.5.3, v1.6.0",slack-api-client.src.test.java.test_with_remote_apis.methods.rate_limiter.RateLimiterTest.java,False,False
+slackapi/java-slack-sdk,275c0675ad646d2f6e3f662b2a443bf95e889fa5,"v1.5.3, v1.6.0",slack-api-client.src.test.java.test_locally.api.methods.metrics.RedisMetricsDatastoreTest.java,False,True
+slackapi/java-slack-sdk,275c0675ad646d2f6e3f662b2a443bf95e889fa5,"v1.5.3, v1.6.0",slack-api-client.src.test.java.test_locally.api.methods.metrics.MemoryMetricsDatastoreTest.java,False,False
+slackapi/java-slack-sdk,275c0675ad646d2f6e3f662b2a443bf95e889fa5,"v1.5.3, v1.6.0",slack-api-client.src.test.java.test_locally.SlackTest.java,False,False
+slackapi/java-slack-sdk,b1fc5280f151a98f42f531e8967720895e687edb,"v1.11.0, v1.12.0",bolt.src.test.java.test_locally.service.DefaultOAuthCallbackServiceTest.java,True,False
+slackapi/java-slack-sdk,3d0e4de254b062421646a9d2c06ea9cab40cdec9,"v1.23.1, v1.24.0",slack-api-model.src.test.java.test_locally.api.model.block.BlocksTest.java,True,False
+slackapi/java-slack-sdk,9f929703faaafcc5262cb078c15948eea5516dfd,"v1.24.0, v1.25.0",slack-app-backend.src.test.java.test_locally.app_backend.interactive_components.payload.BlockActionPayloadTest.java,True,False

@@ -1,0 +1,25 @@
+               codeChurnMax  0.422709
+             codeChurnTotal  0.422709
+               codeChurnAvg  0.422709
+                        LOC  0.353394
+                        WMC  0.353394
+              addLinesCount  0.327232
+                        NAs  0.327232
+                        RFC  0.327232
+                addLinesAvg  0.327232
+                addLinesMax  0.327232
+                        NOM  0.297608
+            NumberOfMethods  0.297608
+Exception Catching Throwing  0.279168
+          Magic Number Test  0.272001
+                        AsD  0.257917
+            removedLinesAvg  0.254456
+         Assertion Roulette  0.254456
+            General Fixture  0.242586
+          removedLinesCount  0.231755
+            removedLinesMax  0.231755
+                 Eager Test  0.183691
+                IgnoredTest  0.158084
+               Unknown Test  0.126545
+                  Lazy Test  0.100435
+     Conditional Test Logic  0.017204

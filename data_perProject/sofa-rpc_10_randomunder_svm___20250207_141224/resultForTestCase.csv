@@ -1,0 +1,11 @@
+App,SHA,Tag,TestFilePath,isRefactored,prediction
+sofastack/sofa-rpc,a0533198cf3a4a8dac85b24d992dd8229d0c82d8,"v5.4.4, v5.4.5",core.api.src.test.java.com.alipay.sofa.rpc.filter.FilterChainTest.java,False,True
+sofastack/sofa-rpc,19b8ab9021ceac13592e1ba09c12eaea8d432787,"v5.4.5, v5.4.6",extension-impl.codec-sofa-hessian.src.test.java.com.alipay.sofa.rpc.codec.sofahessian.SofaHessianSerializerTest.java,True,False
+sofastack/sofa-rpc,19b8ab9021ceac13592e1ba09c12eaea8d432787,"v5.4.5, v5.4.6",extension-impl.registry-zk.src.test.java.com.alipay.sofa.rpc.registry.zk.ZookeeperRegistryTest.java,True,True
+sofastack/sofa-rpc,aa692c4a514c52e77b6d3ce4c67c776d50668090,"v5.4.7, v5.4.8",extension-impl.registry-local.src.test.java.com.alipay.sofa.rpc.registry.local.LocalRegistryTest.java,True,False
+sofastack/sofa-rpc,dca5eff72acc0a2ad3e0e22ed228defe785c1cb5,"v5.5.6, v5.5.7",extension-impl.registry-mesh.src.test.java.com.alipay.sofa.rpc.registry.mesh.MeshRegistryTest.java,False,True
+sofastack/sofa-rpc,f38b068681a6ad510fb6c8df9b53895d28d2faf5,"v5.6.0, v5.6.1",extension-impl.registry-mesh.src.test.java.com.alipay.sofa.rpc.registry.mesh.MeshRegistryTest.java,False,True
+sofastack/sofa-rpc,819d178eabe77cfb536dbc7fbc89c73db75d4ea6,"v5.6.4, v5.6.5",extension-impl.codec-jackson.src.test.java.com.alipay.sofa.rpc.codec.jackson.JacksonSerializerTest.java,True,True
+sofastack/sofa-rpc,819d178eabe77cfb536dbc7fbc89c73db75d4ea6,"v5.6.4, v5.6.5",extension-impl.registry-mesh.src.test.java.com.alipay.sofa.rpc.registry.mesh.MeshRegistryTest.java,True,False
+sofastack/sofa-rpc,2e571f015d86de20c306cffcb885bf6c08493f68,"v5.7.9, v5.7.10",core.api.src.test.java.com.alipay.sofa.rpc.client.ProviderInfoTest.java,False,True
+sofastack/sofa-rpc,d107d224369f6119b48234f7be1c2c32ccee00c8,"v5.8.3, v5.8.4",codec.codec-jackson.src.test.java.com.alipay.sofa.rpc.codec.jackson.JacksonSerializerTest.java,False,True
