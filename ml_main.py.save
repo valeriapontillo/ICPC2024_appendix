@@ -43,7 +43,7 @@ def __init__(self):
 print("Started: " + start_time.strftime("%d %m %Y H%H:%M:%S"))
 print("Results will be saved to dir: " + out_dir)
 # get dataset
-dataset_dir = "./per_refactoring/" + params[
+dataset_dir = "./per_project/" + params[
     "data"] + ".csv"  # Insert here your path
 
 # this line is for RQ3
