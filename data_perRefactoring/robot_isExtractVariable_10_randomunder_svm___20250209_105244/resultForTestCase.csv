@@ -1,0 +1,21 @@
+App,SHA,Tag,TestFilePath,isExtractVariable,prediction
+ontodev/robot,21a135eade86752c9cf69c7550a81377b4a0a6dc,"v1.2.0-alpha-1, v1.2.0",robot-core.src.test.java.org.obolibrary.robot.ReasonerHelperTest.java,True,False
+ontodev/robot,21a135eade86752c9cf69c7550a81377b4a0a6dc,"v1.2.0-alpha-1, v1.2.0",robot-core.src.test.java.org.obolibrary.robot.ReasonOperationTest.java,False,False
+ontodev/robot,21a135eade86752c9cf69c7550a81377b4a0a6dc,"v1.2.0-alpha-1, v1.2.0",robot-core.src.test.java.org.obolibrary.robot.OntologyHelperTest.java,True,True
+ontodev/robot,21a135eade86752c9cf69c7550a81377b4a0a6dc,"v1.2.0-alpha-1, v1.2.0",robot-core.src.test.java.org.obolibrary.robot.MirrorOperationTest.java,False,False
+ontodev/robot,21a135eade86752c9cf69c7550a81377b4a0a6dc,"v1.2.0-alpha-1, v1.2.0",robot-core.src.test.java.org.obolibrary.robot.MergeOperationTest.java,False,False
+ontodev/robot,21a135eade86752c9cf69c7550a81377b4a0a6dc,"v1.2.0-alpha-1, v1.2.0",robot-core.src.test.java.org.obolibrary.robot.DiffOperationTest.java,False,True
+ontodev/robot,930fdc054ec7beab72e338e22ef4e2c4d6bd584b,"v1.2.0, v1.3.0",robot-core.src.test.java.org.obolibrary.robot.RelatedObjectsHelperTest.java,False,False
+ontodev/robot,a8355bdc15f979cff8abc5b1a59cac5fd669c14f,"v1.3.0, v1.4.0",robot-core.src.test.java.org.obolibrary.robot.ExtractOperationTest.java,False,False
+ontodev/robot,a8355bdc15f979cff8abc5b1a59cac5fd669c14f,"v1.3.0, v1.4.0",robot-core.src.test.java.org.obolibrary.robot.ReasonOperationTest.java,False,True
+ontodev/robot,a454b512fe9fdd7c57f832c6c2bf2d62e82a7347,"v1.4.0, v1.4.1",robot-core.src.test.java.org.obolibrary.robot.TemplateHelperTest.java,False,True
+ontodev/robot,7787ce50cefaa00e263588b747ad4c9eb05c0ec3,"v1.4.3, v1.5.0",robot-core.src.test.java.org.obolibrary.robot.RelatedObjectsHelperTest.java,False,True
+ontodev/robot,ab40b6bf243c477e4dcf1c1f31731c40837b38b1,"v1.5.0, v1.6.0",robot-core.src.test.java.org.obolibrary.robot.QueryOperationTest.java,False,False
+ontodev/robot,ab40b6bf243c477e4dcf1c1f31731c40837b38b1,"v1.5.0, v1.6.0",robot-core.src.test.java.org.obolibrary.robot.IOHelperTest.java,False,True
+ontodev/robot,a8182fbaa597f73bfa4b9348de2eb689378f21b8,"v1.6.0, v1.7.0",robot-core.src.test.java.org.obolibrary.robot.MireotOperationTest.java,False,True
+ontodev/robot,a8182fbaa597f73bfa4b9348de2eb689378f21b8,"v1.6.0, v1.7.0",robot-core.src.test.java.org.obolibrary.robot.TemplateTest.java,True,True
+ontodev/robot,a8182fbaa597f73bfa4b9348de2eb689378f21b8,"v1.6.0, v1.7.0",robot-core.src.test.java.org.obolibrary.robot.QueryOperationTest.java,False,False
+ontodev/robot,372416d20aed418dfad390c5d94e3155c26e58b0,"v1.8.1, v1.8.2",robot-core.src.test.java.org.obolibrary.robot.QueryOperationTest.java,False,True
+ontodev/robot,372416d20aed418dfad390c5d94e3155c26e58b0,"v1.8.1, v1.8.2",robot-core.src.test.java.org.obolibrary.robot.DiffOperationTest.java,False,False
+ontodev/robot,b63ae37a7d4744675c1b3eb52a960abf1cf876a3,"v1.9.0, v1.9.1-elk-0.5.0",robot-core.src.test.java.org.obolibrary.robot.MergeOperationTest.java,False,True
+ontodev/robot,a42fe9f0e8c5403ec5f2ba19d88210764f92cec6,"v1.9.3, v1.9.4",robot-core.src.test.java.org.obolibrary.robot.ReasonerHelperTest.java,False,True

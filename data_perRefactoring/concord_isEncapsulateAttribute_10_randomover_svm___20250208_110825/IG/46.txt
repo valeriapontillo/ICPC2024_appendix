@@ -1,0 +1,22 @@
+                  Lazy Test  0.064581
+            General Fixture  0.064581
+                        AsD  0.064581
+                        WMC  0.064581
+                addLinesMax  0.064581
+                        NOM  0.064581
+Exception Catching Throwing  0.064581
+              addLinesCount  0.064581
+             codeChurnTotal  0.064581
+          Magic Number Test  0.064581
+               codeChurnMax  0.064581
+                        LOC  0.064581
+            NumberOfMethods  0.048078
+                addLinesAvg  0.048078
+               codeChurnAvg  0.048078
+                        RFC  0.048078
+                        NAs  0.037804
+         Assertion Roulette  0.025881
+            removedLinesMax  0.024689
+            removedLinesAvg  0.024689
+          removedLinesCount  0.024689
+           Duplicate Assert  0.018604

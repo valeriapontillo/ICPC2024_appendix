@@ -1,0 +1,23 @@
+App,SHA,Tag,TestFilePath,isModifyMethodAnnotation,prediction
+trivago/cucable-plugin,3b952d87562c6da54cdf92a5849e9cbe566344ea,"0.0.6, 0.0.7",src.test.java.com.trivago.rta.features.FeatureFileConverterTest.java,True,True
+trivago/cucable-plugin,4452b7a878ed7d04c949982b06e7e5f069cef9d0,"0.0.9, 0.1.0",src.test.java.com.trivago.rta.features.FeatureFileConverterTest.java,False,True
+trivago/cucable-plugin,e821d60b32036040ac289d8d0e4761896da3e6c7,"0.1.1, 0.1.2",src.test.java.com.trivago.rta.gherkin.GherkinDocumentParserTest.java,False,False
+trivago/cucable-plugin,5cbb41848030d96c19aea9801e49a0740626bcee,"0.1.2, 0.1.3",src.test.java.com.trivago.rta.CucablePluginTest.java,False,True
+trivago/cucable-plugin,5cbb41848030d96c19aea9801e49a0740626bcee,"0.1.2, 0.1.3",src.test.java.com.trivago.rta.properties.PropertyManagerTest.java,False,False
+trivago/cucable-plugin,7a5a60c3decf0f46d24cc66b5a5fd5c1639f98fc,"0.1.8, 0.1.9",plugin-code.src.test.java.com.trivago.rta.runners.RunnerFileContentRendererTest.java,False,False
+trivago/cucable-plugin,cfaadd79a007aa239249c55bb8a5227137c4f1b5,"0.1.9, 0.1.11",plugin-code.src.test.java.com.trivago.rta.files.FileIOTest.java,False,False
+trivago/cucable-plugin,51de9e25279c4d1db1a22d9119dfa5aef22a4275,"0.1.11, 1.0.0",plugin-code.src.test.java.com.trivago.rta.runners.RunnerFileContentRendererTest.java,False,False
+trivago/cucable-plugin,06c84c3c2bf63cc06427d700879e46a7a59b8f62,"1.0.0, 1.1.0",plugin-code.src.test.java.com.trivago.rta.features.FeatureFileConverterTest.java,False,False
+trivago/cucable-plugin,d72a449625409f8fa343b5a243c16c6d43244ec4,"1.1.0, 1.2.0",plugin-code.src.test.java.com.trivago.rta.properties.PropertyManagerTest.java,False,False
+trivago/cucable-plugin,c7cd3098259ba7e78468d477b645a3df9c5e70da,"1.3.2, 1.4.0",plugin-code.src.test.java.com.trivago.properties.PropertyManagerTest.java,False,False
+trivago/cucable-plugin,c7cd3098259ba7e78468d477b645a3df9c5e70da,"1.3.2, 1.4.0",plugin-code.src.test.java.com.trivago.features.FeatureFileConverterTest.java,True,True
+trivago/cucable-plugin,4a1b0b64a0cb9598712928a91cc61c9065b35a54,"1.5.2, 1.5.3",plugin-code.src.test.java.com.trivago.features.FeatureFileConverterTest.java,False,False
+trivago/cucable-plugin,b8076dc89f3df203b6cb4e0a884ed0b407800a68,"1.5.3, 1.6.0",plugin-code.src.test.java.com.trivago.gherkin.GherkinDocumentParserTest.java,True,False
+trivago/cucable-plugin,0035ee1ba8f8a786b3d62319fb161e72b5ade04a,"1.6.0, 1.7.0",plugin-code.src.test.java.com.trivago.features.FeatureFileConverterTest.java,False,True
+trivago/cucable-plugin,0035ee1ba8f8a786b3d62319fb161e72b5ade04a,"1.6.0, 1.7.0",plugin-code.src.test.java.com.trivago.properties.PropertyManagerTest.java,False,False
+trivago/cucable-plugin,41515e76a881ec97ada593b9e51dabc4fea68d05,"1.8.0, 1.9.0",plugin-code.src.test.java.com.trivago.features.FeatureFileContentRendererTest.java,False,False
+trivago/cucable-plugin,394507d64f33261f4316bb036d55c6a9f7b8e4ed,"v0.0.4, v1.10.0",plugin-code.src.test.java.com.trivago.runners.RunnerFileContentRendererTest.java,False,True
+trivago/cucable-plugin,394507d64f33261f4316bb036d55c6a9f7b8e4ed,"v0.0.4, v1.10.0",plugin-code.src.test.java.com.trivago.features.FeatureFileContentRendererTest.java,False,True
+trivago/cucable-plugin,394507d64f33261f4316bb036d55c6a9f7b8e4ed,"v0.0.4, v1.10.0",plugin-code.src.test.java.com.trivago.properties.PropertyManagerTest.java,False,False
+trivago/cucable-plugin,394507d64f33261f4316bb036d55c6a9f7b8e4ed,"v0.0.4, v1.10.0",plugin-code.src.test.java.com.trivago.gherkin.GherkinDocumentParserTest.java,True,False
+trivago/cucable-plugin,394507d64f33261f4316bb036d55c6a9f7b8e4ed,"v0.0.4, v1.10.0",plugin-code.src.test.java.com.trivago.features.FeatureFileConverterTest.java,True,True

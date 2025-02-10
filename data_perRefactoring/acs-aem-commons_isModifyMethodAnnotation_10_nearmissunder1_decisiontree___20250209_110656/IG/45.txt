@@ -1,0 +1,27 @@
+             codeChurnTotal  0.082167
+              addLinesCount  0.080739
+                        LOC  0.075585
+                addLinesMax  0.074735
+               codeChurnMax  0.073448
+               codeChurnAvg  0.068695
+                addLinesAvg  0.065889
+            removedLinesMax  0.064061
+     contributorsExperience  0.058571
+          removedLinesCount   0.05299
+                        WMC  0.050074
+                        RFC  0.048558
+                        NAs  0.047796
+                        AsD   0.03682
+            removedLinesAvg    0.0358
+                  Lazy Test  0.033013
+                        NOM  0.027102
+            General Fixture  0.025672
+            NumberOfMethods  0.023778
+          Magic Number Test  0.023027
+Exception Catching Throwing  0.021211
+         Sensitive Equality  0.017462
+           Duplicate Assert  0.016572
+                    commits  0.016049
+         Assertion Roulette  0.015502
+               Contributors  0.013677
+                 Eager Test  0.010071

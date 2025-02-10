@@ -1,0 +1,13 @@
+App,SHA,Tag,TestFilePath,isInlineAttribute,prediction
+restx/restx,0bd3bd8b97ec9aadec0d949b06808a0c53f0dddf,"restx-parent-0.2.8, restx-parent-0.2.9",restx-core.src.test.java.restx.specs.RestxSpecRepositoryTest.java,False,False
+restx/restx,694ed1158063ff6c5985b8c40a6feb8d9a0bd34a,"restx-parent-0.2.9, restx-parent-0.2.9.1",restx-classloader.src.test.java.restx.classloader.CompilationManagerTest.java,False,False
+restx/restx,53488f354b55761e7397ba68f1e5ec67eba6aa83,"restx-parent-0.2.9.2, restx-parent-0.30",restx-core.src.test.java.restx.specs.RestxSpecTest.java,False,False
+restx/restx,53488f354b55761e7397ba68f1e5ec67eba6aa83,"restx-parent-0.2.9.2, restx-parent-0.30",restx-common.src.test.java.restx.common.StdRestxConfigTest.java,False,False
+restx/restx,2602733199588f8de0c144c720592532283cd3b0,"restx-parent-0.30, restx-parent-0.31",restx-server-simple.src.test.java.restx.server.simple.SimpleWebServerTest.java,True,False
+restx/restx,2602733199588f8de0c144c720592532283cd3b0,"restx-parent-0.30, restx-parent-0.31",restx-factory.src.test.java.restx.factory.FactoryTest.java,False,False
+restx/restx,2602733199588f8de0c144c720592532283cd3b0,"restx-parent-0.30, restx-parent-0.31",restx-core.src.test.java.restx.specs.RestxSpecTest.java,False,True
+restx/restx,2602733199588f8de0c144c720592532283cd3b0,"restx-parent-0.30, restx-parent-0.31",restx-core.src.test.java.restx.specs.RestxSpecRepositoryTest.java,False,True
+restx/restx,2602733199588f8de0c144c720592532283cd3b0,"restx-parent-0.30, restx-parent-0.31",restx-samplest.src.test.java.samplest.security.SecuredResourceTest.java,False,False
+restx/restx,2602733199588f8de0c144c720592532283cd3b0,"restx-parent-0.30, restx-parent-0.31",restx-common.src.test.java.restx.common.MustachesTest.java,False,True
+restx/restx,82f49799314e3b478aec7328b7cd82e33597a680,"restx-parent-0.35.1, restx-parent-1.0.0-rc1",restx-jongo-specs-tests.src.test.java.restx.jongo.specs.tests.EmbedMongoFactoryTest.java,False,False
+restx/restx,82f49799314e3b478aec7328b7cd82e33597a680,"restx-parent-0.35.1, restx-parent-1.0.0-rc1",restx-samplest.src.test.java.samplest.core.PolymorphicResourceTest.java,False,False

@@ -1,0 +1,25 @@
+       NumberOfMethods  0.500402
+                   NOM  0.500402
+       removedLinesMax  0.500402
+     removedLinesCount  0.500402
+           addLinesAvg  0.500402
+           addLinesMax  0.500402
+         addLinesCount  0.500402
+          codeChurnMax  0.500402
+                   NAs  0.500402
+                   WMC  0.500402
+                   RFC  0.500402
+                   LOC  0.500402
+     Magic Number Test  0.500402
+       removedLinesAvg  0.500402
+          codeChurnAvg  0.361773
+                   AsD  0.275468
+               commits  0.275468
+Conditional Test Logic  0.230066
+        codeChurnTotal  0.223144
+     Resource Optimism  0.170819
+          Unknown Test  0.136839
+      Duplicate Assert  0.136839
+    Assertion Roulette  0.118494
+           IgnoredTest  0.118494
+       Print Statement  0.118494

@@ -1,0 +1,21 @@
+App,SHA,Tag,TestFilePath,isModifyMethodAnnotation,prediction
+apache/iotdb,9d998891a2b4726bd1183397b31a32aec38d26a1,"release/0.11.0, release/0.11.1",server.src.test.java.org.apache.iotdb.db.qp.strategy.LogicalGeneratorTest.java,False,True
+apache/iotdb,89efa6d3fafa4fc1b1aa019741ab43c4da690900,"v0.11.3, v0.11.4",server.src.test.java.org.apache.iotdb.db.engine.compaction.NoCompactionTsFileManagementTest.java,False,False
+apache/iotdb,ae9c3cc8c330dc58866fca37696c48d421f0a7f6,"v0.12.0, v0.12.1",cluster.src.test.java.org.apache.iotdb.cluster.query.ClusterDataQueryExecutorTest.java,False,True
+apache/iotdb,ae9c3cc8c330dc58866fca37696c48d421f0a7f6,"v0.12.0, v0.12.1",server.src.test.java.org.apache.iotdb.db.engine.compaction.LevelCompactionTsFileManagementTest.java,False,False
+apache/iotdb,ae9c3cc8c330dc58866fca37696c48d421f0a7f6,"v0.12.0, v0.12.1",session.src.test.java.org.apache.iotdb.session.pool.SessionPoolTest.java,False,False
+apache/iotdb,ae9c3cc8c330dc58866fca37696c48d421f0a7f6,"v0.12.0, v0.12.1",cluster.src.test.java.org.apache.iotdb.cluster.client.async.AsyncClientPoolTest.java,False,True
+apache/iotdb,55303223ec31faea003efc4ae3c41625ec51b341,"v0.12.1, v0.12.2",server.src.test.java.org.apache.iotdb.db.qp.physical.PhysicalPlanTest.java,False,True
+apache/iotdb,55303223ec31faea003efc4ae3c41625ec51b341,"v0.12.1, v0.12.2",server.src.test.java.org.apache.iotdb.db.engine.storagegroup.StorageGroupProcessorTest.java,False,False
+apache/iotdb,55303223ec31faea003efc4ae3c41625ec51b341,"v0.12.1, v0.12.2",cluster.src.test.java.org.apache.iotdb.cluster.client.DataClientProviderTest.java,False,True
+apache/iotdb,a8c5dc8a13a4b90303fec4b29e40a1b33e6b737d,"v0.12.2, v0.12.3",server.src.test.java.org.apache.iotdb.db.writelog.recover.TsFileRecoverPerformerTest.java,False,True
+apache/iotdb,a8c5dc8a13a4b90303fec4b29e40a1b33e6b737d,"v0.12.2, v0.12.3",server.src.test.java.org.apache.iotdb.db.engine.storagegroup.TsFileProcessorTest.java,False,False
+apache/iotdb,a56e7ae8db06895f4193ec5ccd252ea68c76b027,"v0.12.3, v0.12.4",server.src.test.java.org.apache.iotdb.db.engine.storagegroup.TsFileProcessorTest.java,False,True
+apache/iotdb,a56e7ae8db06895f4193ec5ccd252ea68c76b027,"v0.12.3, v0.12.4",server.src.test.java.org.apache.iotdb.db.engine.storagegroup.StorageGroupProcessorTest.java,False,True
+apache/iotdb,a56e7ae8db06895f4193ec5ccd252ea68c76b027,"v0.12.3, v0.12.4",server.src.test.java.org.apache.iotdb.db.query.reader.series.SeriesReaderByTimestampTest.java,False,False
+apache/iotdb,a56e7ae8db06895f4193ec5ccd252ea68c76b027,"v0.12.3, v0.12.4",tsfile.src.test.java.org.apache.iotdb.tsfile.utils.ReadWriteIOUtilsTest.java,False,False
+apache/iotdb,167a27953759e0d1d83cb100f5db19244ae8602c,"v0.13.0, v0.13.0.1",server.src.test.java.org.apache.iotdb.db.engine.compaction.CompactionTaskComparatorTest.java,False,False
+apache/iotdb,1188ee17e6fd7afaab4e92b2e20c32f738d46fb3,"v0.13.1, v0.13.2",metrics.interface.src.test.java.org.apache.iotdb.metrics.config.MetricConfigTest.java,False,True
+apache/iotdb,ff6de906748d9ddc1a3b40a768c3de69fecc6733,"v1.0.0, v1.0.1",consensus.src.test.java.org.apache.iotdb.consensus.ratis.RatisConsensusTest.java,False,True
+apache/iotdb,ff6de906748d9ddc1a3b40a768c3de69fecc6733,"v1.0.0, v1.0.1",consensus.src.test.java.org.apache.iotdb.consensus.iot.logdispatcher.SyncStatusTest.java,False,False
+apache/iotdb,ff6de906748d9ddc1a3b40a768c3de69fecc6733,"v1.0.0, v1.0.1",consensus.src.test.java.org.apache.iotdb.consensus.iot.logdispatcher.IndexControllerTest.java,False,True

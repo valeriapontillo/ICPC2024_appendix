@@ -1,0 +1,7 @@
+App,SHA,Tag,TestFilePath,isAddClassAnnotation,prediction
+SeleniumHQ/htmlunit-driver,1368e9432e9b1f0d11078c774b99e3390fa6edb3,"3.62.0, 3.63.0",src.test.java.org.openqa.selenium.htmlunit.HtmlUnitWebElementTest.java,False,False
+SeleniumHQ/htmlunit-driver,1368e9432e9b1f0d11078c774b99e3390fa6edb3,"3.62.0, 3.63.0",src.test.java.org.openqa.selenium.htmlunit.HtmlUnitDriverTest.java,False,True
+SeleniumHQ/htmlunit-driver,1368e9432e9b1f0d11078c774b99e3390fa6edb3,"3.62.0, 3.63.0",src.test.java.org.openqa.selenium.htmlunit.HtmlUnitAlertTest.java,False,False
+SeleniumHQ/htmlunit-driver,10ed2faf59c4c75c876cfe2aef8198be1f67eaa2,"4.0.0-rc-2, 4.5.0",src.test.java.org.openqa.selenium.htmlunit.HtmlUnitAlertTest.java,False,False
+SeleniumHQ/htmlunit-driver,10ed2faf59c4c75c876cfe2aef8198be1f67eaa2,"4.0.0-rc-2, 4.5.0",src.test.java.org.openqa.selenium.htmlunit.HtmlUnitWebElementTest.java,False,False
+SeleniumHQ/htmlunit-driver,10ed2faf59c4c75c876cfe2aef8198be1f67eaa2,"4.0.0-rc-2, 4.5.0",src.test.java.org.openqa.selenium.htmlunit.HtmlUnitDriverTest.java,False,False

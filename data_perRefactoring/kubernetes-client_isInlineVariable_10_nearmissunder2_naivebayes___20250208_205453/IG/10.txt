@@ -1,0 +1,25 @@
+         Assertion Roulette  0.129741
+         Sensitive Equality  0.129741
+                 Eager Test  0.129741
+          Magic Number Test  0.129741
+                addLinesAvg  0.129741
+                        WMC  0.129741
+                        AsD  0.129741
+                        RFC  0.129741
+                        LOC  0.129741
+              addLinesCount  0.129741
+          removedLinesCount  0.129741
+                  Lazy Test  0.129741
+        Redundant Assertion  0.129741
+                        NAs  0.129741
+                addLinesMax  0.129741
+             codeChurnTotal  0.129741
+               codeChurnMax  0.129741
+               codeChurnAvg  0.129741
+            removedLinesMax  0.090132
+            NumberOfMethods  0.090132
+                        NOM  0.090132
+            removedLinesAvg  0.090132
+Exception Catching Throwing  0.075182
+                IgnoredTest  0.022865
+                    commits  0.019396

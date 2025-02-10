@@ -1,0 +1,12 @@
+App,SHA,Tag,TestFilePath,isAddMethodAnnotation,prediction
+mybatis-flex/mybatis-flex,11fe36ad980a36ede3aa2081d6b70d2851f2dc3e,"v1.2.4, v1.2.5",mybatis-flex-codegen.src.test.java.com.mybatisflex.codegen.test.GeneratorTest.java,False,True
+mybatis-flex/mybatis-flex,ab2646f377835de07d6e83517d219b4034cecd6f,"v1.3.0, v1.3.1",mybatis-flex-codegen.src.test.java.com.mybatisflex.codegen.test.GeneratorTest.java,False,True
+mybatis-flex/mybatis-flex,9b08c9a7c593455d04272bc8de8db7a7d62575ec,"v1.3.4, v1.3.5",mybatis-flex-codegen.src.test.java.com.mybatisflex.codegen.test.GeneratorTest.java,True,True
+mybatis-flex/mybatis-flex,04eb9094d8d565c348e4b24c696ebd24274bfb46,"v1.3.6, v1.3.7",mybatis-flex-codegen.src.test.java.com.mybatisflex.codegen.test.GeneratorTest.java,True,True
+mybatis-flex/mybatis-flex,96f911e6de1dc7c514bf9ffed31b0c2c80e4a173,"v1.3.7, v1.3.8",mybatis-flex-codegen.src.test.java.com.mybatisflex.codegen.test.GeneratorTest.java,True,True
+mybatis-flex/mybatis-flex,9535d854954a35315dd1edf1999d0fdd49f8655c,"v1.4.6, v1.4.7",mybatis-flex-codegen.src.test.java.com.mybatisflex.codegen.test.GeneratorTest.java,False,True
+mybatis-flex/mybatis-flex,f4ccce5c7a7e1f2dc909e74d018703fa0a487b87,"v1.4.7, v1.4.8",mybatis-flex-codegen.src.test.java.com.mybatisflex.codegen.test.GeneratorTest.java,True,True
+mybatis-flex/mybatis-flex,b7d866d6f5734de7a476eb5a198c6270324414c1,"v1.4.8, v1.4.9",mybatis-flex-codegen.src.test.java.com.mybatisflex.codegen.test.GeneratorTest.java,False,True
+mybatis-flex/mybatis-flex,a928119b40c9316c1274ff7338d375cdd39b739e,"v1.4.9, v1.5.0",mybatis-flex-codegen.src.test.java.com.mybatisflex.codegen.test.GeneratorTest.java,True,True
+mybatis-flex/mybatis-flex,47b4fada3e445ca661c3d1bd861fc223d1d7b267,"v1.5.3, v1.5.4",mybatis-flex-codegen.src.test.java.com.mybatisflex.codegen.test.GeneratorTest.java,True,True
+mybatis-flex/mybatis-flex,09d649d296451d77ac5776838bb765ff7496158c,"v1.5.6, v1.5.7",mybatis-flex-codegen.src.test.java.com.mybatisflex.codegen.test.GeneratorTest.java,False,True

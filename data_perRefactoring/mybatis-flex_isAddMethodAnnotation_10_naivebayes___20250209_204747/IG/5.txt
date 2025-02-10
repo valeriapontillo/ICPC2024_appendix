@@ -1,0 +1,14 @@
+                   RFC  0.682908
+         addLinesCount  0.682908
+           addLinesMax  0.682908
+     removedLinesCount  0.682908
+           addLinesAvg  0.682908
+                   LOC  0.484866
+        codeChurnTotal  0.484866
+          codeChurnMax  0.484866
+          codeChurnAvg  0.484866
+       removedLinesMax  0.361574
+       removedLinesAvg  0.286824
+contributorsExperience  0.202185
+          Contributors  0.202185
+               commits  0.163532

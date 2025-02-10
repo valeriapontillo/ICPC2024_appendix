@@ -1,0 +1,36 @@
+                        RFC  0.249418
+                        LOC  0.249418
+              addLinesCount  0.249418
+             codeChurnTotal  0.249418
+          removedLinesCount  0.216776
+                addLinesMax    0.2094
+            removedLinesMax  0.202023
+               codeChurnMax  0.188015
+                        NAs  0.186431
+                        WMC  0.183543
+                    commits  0.180639
+     contributorsExperience  0.157689
+                        NOM  0.150595
+Exception Catching Throwing  0.145299
+                 Eager Test  0.143769
+            NumberOfMethods  0.137117
+                        AsD  0.129516
+                  Lazy Test  0.129183
+          Magic Number Test  0.127932
+               codeChurnAvg  0.126459
+         Assertion Roulette  0.122756
+            removedLinesAvg  0.110927
+               Unknown Test  0.109642
+                addLinesAvg  0.107002
+            General Fixture  0.106335
+            Print Statement   0.09834
+              Mystery Guest  0.092849
+          Resource Optimism  0.086645
+     Conditional Test Logic  0.083116
+           Duplicate Assert  0.066801
+               Contributors  0.054818
+                  EmptyTest  0.026221
+          minorContributors  0.025587
+         Sensitive Equality  0.024447
+                Sleepy Test  0.017277
+                IgnoredTest  0.014065

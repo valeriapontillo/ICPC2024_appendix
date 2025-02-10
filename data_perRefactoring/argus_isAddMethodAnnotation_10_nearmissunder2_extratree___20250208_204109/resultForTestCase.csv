@@ -1,0 +1,19 @@
+App,SHA,Tag,TestFilePath,isAddMethodAnnotation,prediction
+salesforce/Argus,e4dd739f67576081dc796dd2419891961c621354,"2.4.1, 2.6.0",ArgusCore.src.test.java.com.salesforce.dva.argus.service.DefaultAlertServiceTest.java,False,True
+salesforce/Argus,e4dd739f67576081dc796dd2419891961c621354,"2.4.1, 2.6.0",ArgusCore.src.test.java.com.salesforce.dva.argus.service.metric.transform.PercentileTransformTest.java,False,False
+salesforce/Argus,c3e4e3e720d5e10cf7603601efce5ae441750c53,"2.9.0, 2.19.0",ArgusCore.src.test.java.com.salesforce.dva.argus.service.schema.AbstractSchemaServiceTest.java,False,False
+salesforce/Argus,c3e4e3e720d5e10cf7603601efce5ae441750c53,"2.9.0, 2.19.0",ArgusCore.src.test.java.com.salesforce.dva.argus.service.schema.ElasticSearchSchemaServiceTest.java,False,True
+salesforce/Argus,c3e4e3e720d5e10cf7603601efce5ae441750c53,"2.9.0, 2.19.0",ArgusCore.src.test.java.com.salesforce.dva.argus.service.metric.transform.FillTransformTest.java,False,False
+salesforce/Argus,c3e4e3e720d5e10cf7603601efce5ae441750c53,"2.9.0, 2.19.0",ArgusCore.src.test.java.com.salesforce.dva.argus.service.AlertServiceTest.java,False,True
+salesforce/Argus,c3e4e3e720d5e10cf7603601efce5ae441750c53,"2.9.0, 2.19.0",ArgusCore.src.test.java.com.salesforce.dva.argus.util.AlertUtilsTest.java,False,False
+salesforce/Argus,c3e4e3e720d5e10cf7603601efce5ae441750c53,"2.9.0, 2.19.0",ArgusCore.src.test.java.com.salesforce.dva.argus.service.tsdb.AbstractTSDBServiceTest.java,False,False
+salesforce/Argus,c3e4e3e720d5e10cf7603601efce5ae441750c53,"2.9.0, 2.19.0",ArgusCore.src.test.java.com.salesforce.dva.argus.util.CronTest.java,False,False
+salesforce/Argus,c3e4e3e720d5e10cf7603601efce5ae441750c53,"2.9.0, 2.19.0",ArgusCore.src.test.java.com.salesforce.dva.argus.service.schema.DefaultDiscoveryServiceTest.java,False,False
+salesforce/Argus,b86bd91477fac679014a29a84d059bd05649228c,"v2.14.0, v2.16.0",ArgusCore.src.test.java.com.salesforce.dva.argus.service.schema.ElasticSearchSchemaServiceTest.java,False,True
+salesforce/Argus,b86bd91477fac679014a29a84d059bd05649228c,"v2.14.0, v2.16.0",ArgusCore.src.test.java.com.salesforce.dva.argus.util.CronTest.java,False,False
+salesforce/Argus,6ac4f45bb89cede1e09ec8fd2f10fc9f45b59d8d,"v2.16.0, v2.17.1",ArgusCore.src.test.java.com.salesforce.dva.argus.service.schema.ElasticSearchSchemaServiceTest.java,False,False
+salesforce/Argus,6ac4f45bb89cede1e09ec8fd2f10fc9f45b59d8d,"v2.16.0, v2.17.1",ArgusCore.src.test.java.com.salesforce.dva.argus.service.schema.AbstractSchemaServiceTest.java,False,True
+salesforce/Argus,6ac4f45bb89cede1e09ec8fd2f10fc9f45b59d8d,"v2.16.0, v2.17.1",ArgusCore.src.test.java.com.salesforce.dva.argus.service.AlertServiceTest.java,False,False
+salesforce/Argus,ad2c2efe729d1b9ec24e066e4a47ec352a502136,"v2.18.0, v2.21.3",ArgusCore.src.test.java.com.salesforce.dva.argus.service.schema.AbstractSchemaServiceTest.java,False,False
+salesforce/Argus,ad2c2efe729d1b9ec24e066e4a47ec352a502136,"v2.18.0, v2.21.3",ArgusCore.src.test.java.com.salesforce.dva.argus.service.schema.ElasticSearchSchemaServiceTest.java,False,True
+salesforce/Argus,ad2c2efe729d1b9ec24e066e4a47ec352a502136,"v2.18.0, v2.21.3",ArgusCore.src.test.java.com.salesforce.dva.argus.service.metric.transform.FillTransformTest.java,False,True

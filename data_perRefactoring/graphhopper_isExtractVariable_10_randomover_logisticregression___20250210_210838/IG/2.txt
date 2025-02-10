@@ -1,0 +1,26 @@
+       NumberOfMethods  0.636514
+                   LOC  0.636514
+       removedLinesMax  0.636514
+     removedLinesCount  0.636514
+                   NAs  0.636514
+                   RFC  0.636514
+                   WMC  0.636514
+                   NOM  0.636514
+                   AsD  0.636514
+     Magic Number Test  0.636514
+      Duplicate Assert  0.636514
+             Lazy Test  0.636514
+            Eager Test  0.636514
+         addLinesCount  0.636514
+           addLinesAvg  0.636514
+           addLinesMax  0.636514
+       removedLinesAvg  0.636514
+          codeChurnAvg  0.636514
+          codeChurnMax  0.636514
+        codeChurnTotal  0.636514
+          Unknown Test  0.174416
+Conditional Test Logic  0.174416
+       General Fixture  0.174416
+          Contributors  0.075671
+contributorsExperience  0.075671
+               commits  0.075671

@@ -1,0 +1,20 @@
+App,SHA,Tag,TestFilePath,isInlineVariable,prediction
+dromara/sureness,8831ea3c5c2d6185d5a24e5d6e79e95f1deb8b1e,"sureness-root-0.0.2.4, sureness-root-0.0.2.6",sample-tom.src.test.java.com.usthe.sureness.sample.tom.dao.AuthUserRoleBindDaoTest.java,False,False
+dromara/sureness,8831ea3c5c2d6185d5a24e5d6e79e95f1deb8b1e,"sureness-root-0.0.2.4, sureness-root-0.0.2.6",sample-tom.src.test.java.com.usthe.sureness.sample.tom.dao.AuthUserDaoTest.java,False,True
+dromara/sureness,8831ea3c5c2d6185d5a24e5d6e79e95f1deb8b1e,"sureness-root-0.0.2.4, sureness-root-0.0.2.6",sample-tom.src.test.java.com.usthe.sureness.sample.tom.dao.AuthRoleResourceBindDaoTest.java,False,False
+dromara/sureness,8831ea3c5c2d6185d5a24e5d6e79e95f1deb8b1e,"sureness-root-0.0.2.4, sureness-root-0.0.2.6",sample-tom.src.test.java.com.usthe.sureness.sample.tom.dao.AuthRoleDaoTest.java,False,True
+dromara/sureness,8831ea3c5c2d6185d5a24e5d6e79e95f1deb8b1e,"sureness-root-0.0.2.4, sureness-root-0.0.2.6",sample-tom.src.test.java.com.usthe.sureness.sample.tom.dao.AuthResourceDaoTest.java,False,True
+dromara/sureness,8831ea3c5c2d6185d5a24e5d6e79e95f1deb8b1e,"sureness-root-0.0.2.4, sureness-root-0.0.2.6",sample-tom.src.test.java.com.usthe.sureness.sample.tom.TomApplicationTest.java,False,True
+dromara/sureness,7c365df4aad9ba383053e366a93f50e0d593247b,"sureness-root-0.0.2.8-pre, sureness-root-0.0.2.8",core.src.test.java.com.usthe.sureness.matcher.DefaultPathRoleMatcherTest.java,False,False
+dromara/sureness,51642cad196054b7cc5e043e3262af9891165284,"sureness-root-0.2, sureness-root-0.3",core.src.test.java.com.usthe.sureness.util.SurenessCommonUtilTest.java,False,False
+dromara/sureness,2011f39fd94a73b3706153d1d8781368c3a6c8ec,"sureness-root-0.3, sureness-root-0.4",sample-tom.src.test.java.com.usthe.sureness.sample.tom.dao.AuthUserRoleBindDaoTest.java,False,False
+dromara/sureness,2011f39fd94a73b3706153d1d8781368c3a6c8ec,"sureness-root-0.3, sureness-root-0.4",sample-tom.src.test.java.com.usthe.sureness.sample.tom.dao.AuthUserDaoTest.java,False,False
+dromara/sureness,2011f39fd94a73b3706153d1d8781368c3a6c8ec,"sureness-root-0.3, sureness-root-0.4",sample-tom.src.test.java.com.usthe.sureness.sample.tom.dao.AuthRoleResourceBindDaoTest.java,False,False
+dromara/sureness,2011f39fd94a73b3706153d1d8781368c3a6c8ec,"sureness-root-0.3, sureness-root-0.4",sample-tom.src.test.java.com.usthe.sureness.sample.tom.dao.AuthRoleDaoTest.java,False,False
+dromara/sureness,2011f39fd94a73b3706153d1d8781368c3a6c8ec,"sureness-root-0.3, sureness-root-0.4",sample-tom.src.test.java.com.usthe.sureness.sample.tom.dao.AuthResourceDaoTest.java,False,True
+dromara/sureness,792440399d3a5c97ce9f51f2c98ad2ea7f1ed2ae,"sureness-root-0.4.2, sureness-root-0.4.3",core.src.test.java.com.usthe.sureness.subject.creater.NoneSubjectServletCreatorTest.java,False,False
+dromara/sureness,792440399d3a5c97ce9f51f2c98ad2ea7f1ed2ae,"sureness-root-0.4.2, sureness-root-0.4.3",core.src.test.java.com.usthe.sureness.subject.creater.JwtSubjectServletCreatorTest.java,False,False
+dromara/sureness,792440399d3a5c97ce9f51f2c98ad2ea7f1ed2ae,"sureness-root-0.4.2, sureness-root-0.4.3",core.src.test.java.com.usthe.sureness.subject.creater.BasicSubjectServletCreatorTest.java,False,False
+dromara/sureness,792440399d3a5c97ce9f51f2c98ad2ea7f1ed2ae,"sureness-root-0.4.2, sureness-root-0.4.3",core.src.test.java.com.usthe.sureness.matcher.util.TirePathTreeTest.java,False,True
+dromara/sureness,792440399d3a5c97ce9f51f2c98ad2ea7f1ed2ae,"sureness-root-0.4.2, sureness-root-0.4.3",core.src.test.java.com.usthe.sureness.matcher.DefaultPathRoleMatcherTest.java,False,False
+dromara/sureness,b15605758b2d1dda75ad1aa800bc8c399c6dadd6,"sureness-root-0.4.4, sureness-root-0.4.5",core.src.test.java.com.usthe.sureness.util.JsonWebTokenUtilTest.java,False,True

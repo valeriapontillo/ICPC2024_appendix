@@ -1,0 +1,3 @@
+Empty DataFrame
+Columns: [variable, value]
+Index: []

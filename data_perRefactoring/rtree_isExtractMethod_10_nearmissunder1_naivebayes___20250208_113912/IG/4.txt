@@ -1,0 +1,25 @@
+                   RFC  0.410116
+           addLinesAvg  0.410116
+         addLinesCount  0.410116
+                   LOC  0.410116
+                   WMC  0.410116
+       removedLinesMax  0.410116
+     removedLinesCount  0.410116
+           addLinesMax  0.410116
+          codeChurnAvg  0.410116
+          codeChurnMax  0.410116
+                   NAs  0.410116
+       NumberOfMethods  0.410116
+                   NOM  0.410116
+     Magic Number Test  0.410116
+       removedLinesAvg  0.410116
+          Unknown Test  0.212074
+        codeChurnTotal  0.212074
+     Resource Optimism  0.212074
+                   AsD  0.088782
+               commits  0.088782
+      Duplicate Assert  0.088782
+    Assertion Roulette  0.052686
+           IgnoredTest  0.052686
+       Print Statement  0.052686
+Conditional Test Logic  0.052686
